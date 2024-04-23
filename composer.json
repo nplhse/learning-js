@@ -1,6 +1,20 @@
 {
+    "name": "nplhse/learning-js",
+    "description": "Just a small repository to learn some basic JavaScript",
     "type": "project",
-    "license": "proprietary",
+    "homepage": "https://github.com/nplhse/learning-js/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Steltner",
+            "email": "mail@nplhse.com",
+            "homepage": "http://nplhse.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nplhse/learning-js/issues"
+    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
