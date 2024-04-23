@@ -19,13 +19,12 @@ folder in the webroot of your server, e.g.
     $ git clone https://github.com/nplhse/learning-js.git
     ```
 
-2. Build the **docker containers** and install the project with all dependencies by using **composer**. 
+2. Build the docker containers and install the project with all dependencies by using **make**. 
 
     ```
     $ cd ~/webroot/learning-js
-    $ docker compose build
-    $ docker compose up -d
-    $ composer install
+    $ make start
+    $ make setup
     ```
    
 3. Start the local webserver of symfonys binary and you are ready to go. Just open the site with your favorite browser!
